@@ -1,0 +1,145 @@
+.App {
+  text-align: center; 
+}
+
+.App-header {
+  background-color: transparent; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.esquerda-icones,
+.direita-icones {
+  display: flex;
+  align-items: center;
+
+  .icone {
+    margin: 0 10px; 
+    cursor: pointer; 
+  }
+}
+
+.App-logo {
+  margin: 0 auto;
+  height: 40px; }
+
+  .categorias {
+    padding: 20px;
+  }
+  
+  .categorias h2 {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .categorias-lista {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .categoria {
+    width: 20px;
+    margin: 0 10px; 
+    padding: 70px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer
+  }
+
+.Banner-navegacao{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.Banner-navegacao2{
+  position: relative;
+  width: 100%;
+  height: 800px;
+
+}
+
+.lancamentos {
+  padding: 20px;
+}
+
+.lancamentos h2 {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.lancamento-lista {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.lancamento {
+  width: 20px;
+  margin: 0 20px; 
+  padding: 70px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer
+}
+.App-produto {
+  margin: 0 auto;
+  height: 50px; }
+
+.botao-favorito,
+.botao-adicionar {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-favorito:hover,
+.botao-adicionar:hover {
+  background-color: #0056b3;
+}
+
+.noticias{
+  margin: 20px auto;
+  max-width: 800px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .noticia {
+    padding: 10px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }   
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
